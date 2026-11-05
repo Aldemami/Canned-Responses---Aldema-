@@ -1,0 +1,511 @@
+{
+  "board_id": "9844972619",
+  "count": 63,
+  "usable": 63,
+  "items": [
+    {
+      "id": "9844974669",
+      "name": "[NAM Only] Accounts Pool > AE Monday Account Ownership",
+      "group": "TOF / New Business",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844974669",
+      "text": "Since you are an AE and the Account is under Accounts Pool, can you try going through these steps to assign yourself the account?\n\nhttps://app.getguru.com/card/cEzkEooi/Account-Ownership-change-by-AEs-Updated-process\n\nLet me know if you run into issues!",
+      "usable": true
+    },
+    {
+      "id": "12613388745",
+      "name": "Claim Eligibility Date",
+      "group": "TOF / New Business",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613388745",
+      "text": "UI Message: 'Not within account owner claim eligibility timeframe'\n\n- Note: In the Opp, you can check the Current Owner Claim Eligibility Date in the Component: 'Account - Recognition Infra (Admins)'\n\nResponse:\n\n> If you need evidence from the Rep that they were involved in the cc payment / purchase:\n\nIf you provide some evidence of you working on the Account before the date of the purchase, we can pass this to RevOps to update the Owner Claim Eligibility date so that you can make the cc payment claim.\n\n--\n\n> If the Rep asks for an explanation on why they are blocked and can't claim the cc payment:\n\nWe only let reps claim from the day they get onto the Monday Account as Owner. This error indicates that the Owner claim date is after the upgrade date, so it can't be claimed.",
+      "usable": true
+    },
+    {
+      "id": "12613384723",
+      "name": "Lead Conversion - Duplicate Value For primary_pulse_account_id__c",
+      "group": "TOF / New Business",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613384723",
+      "text": "Error Message:\n\nResponse:\n\nInstead of creating a new Monday Account upon conversion, per the message, since one already exists, for Account, please select Choose Existing, and in the bar input the BB ID [input ID].\n\nYou should then be able to convert to that existing Monday Account, and still create a new Opportunity.",
+      "usable": true
+    },
+    {
+      "id": "9844974061",
+      "name": "Balance Carryover",
+      "group": "CPQ",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844974061",
+      "text": "To remove the Balance Carryover, please open the line item drawer through the arrow on the right.\n\nYou will need to check 'Remove Balance Carryover' and include the Reason. Example below:\n\nTo adjust the Balance Carryover, you will need to check 'Set Balance Carryover' along with the reason, and you can override the amount. Example below:",
+      "usable": true
+    },
+    {
+      "id": "9844974214",
+      "name": "GST/QST Tax Code Validation",
+      "group": "CPQ",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844974214",
+      "text": "Please check the GST number matches XXXXXXXXXRTXXXX format:",
+      "usable": true
+    },
+    {
+      "id": "9844975196",
+      "name": "Update BE to Amazon (Marketplace Deals) + Sold To (Customer Details)",
+      "group": "CPQ",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844975196",
+      "text": "**Note: the following canned response only applies when the Opp is Open (not Closed), and the SO is in Status Approved.\n\nPlease do the following:\n\n* Click CPQ Management > Manage Existing Offers > click Edit and continue for the correct SO & follow the prompts* This will \"recall\" the SO, but it is needed to go through the submission process again for proper BE + Sold-To selection\n\n* Once you are in the Quote Line Editor, click the Submit button and go through the screens\n* For the Billing Entity selection screen, select Amazon (Marketplace Deals) > then click Manage Shipping. * Either find the Shipping Entity or create a new Shipping Entity if you can't find it.",
+      "usable": true
+    },
+    {
+      "id": "9844974305",
+      "name": "Change Currency",
+      "group": "CPQ",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844974305",
+      "text": "Go to CPQ Management > Change Currency:\n\nSwitch to the right currency, and you will be able to claim the cc payment.\n\nNote: if the Opp Currency does not align with the cc payment currency from BigBrain, it will not display in Salesforce.",
+      "usable": true
+    },
+    {
+      "id": "9844974572",
+      "name": "Adding Seats (ProRated Contract)",
+      "group": "CPQ",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844974572",
+      "text": "Thanks for reaching out!\nI see that the quote is a Prorated one so it already has the WM product, the only thing you need to do is add seats. The select product button only displays the products that the contract doesn't have.\n\n- Please do so by using the \"Add seats\" button. Select the existing subscription\n\n- You will then be taken to the Quote Line editor\n- To the right of the WM line item click on the wench, which will take you to the configure products page.\n- Here is where you can define the additional seats.\n\nPlease let me know if you encounter any technical issues.",
+      "usable": true
+    },
+    {
+      "id": "9844975374",
+      "name": "Services - Setting Discount",
+      "group": "CPQ",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844975374",
+      "text": "Please check 'Set Service Discount' through the  line item drawer to properly set the discount:",
+      "usable": true
+    },
+    {
+      "id": "9844973691",
+      "name": "CPQ Feedback Form",
+      "group": "CPQ",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844973691",
+      "text": "I highly encourage you to share feedback here for the CPQ Team to directly review:\n\n• Salesforce CPQ Feedback Form (available in the SO creation screen)\n\n• CPQ Enhancement form",
+      "usable": true
+    },
+    {
+      "id": "12375434266",
+      "name": "Deal room not populating",
+      "group": "CPQ",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12375434266",
+      "text": "thanks for reaching out! It's usually because the quote output isn't set as Primary and Published. Confirm the quote is the primary quote on the opportunity. Usually, if not marked as published, you can do so via the CPQ management Button -> Manage Existing offers -> Additional Options -> Publish an offer",
+      "usable": true
+    },
+    {
+      "id": "12613384829",
+      "name": "BCO \"Not Automatically Calculating\" In New Contract",
+      "group": "CPQ",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613384829",
+      "text": "Response:\n\nThe Account is currently charged in , so the Contract is set to that currency. In the Opp, however, the currency has been set to , and so the SO is for that currency. As a result, the BCO line item gets pulled but due to the currency mismatch, the amount can't get pulled.\n\nYou will need to either:\n\n1. Change the currency via CPQ Management > Change Currency, and create a new SO\n\n-OR-\n\n2. In an existing SO, input it manually - open the BCO line item drawer through the arrow on the right. You will need to check 'Set Balance Carryover' along with the reason, and you can override the amount. Example below:",
+      "usable": true
+    },
+    {
+      "id": "12613384830",
+      "name": "CSM error on co sell opps",
+      "group": "CPQ",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613384830",
+      "text": "* New 2026 CSM logic is now in prod:\nhttps://monday.highspot.com/items/690a4360a331d80acb30a0d5?lfrm=srp.0 * Major change: Co-sells will not be eligible for CSM's anymore.\n\n* Canned Response for CSM co sell errors: The error you are seeing is due to the new 2026 CS Service Level logic that is now live in production. The specific quotes you shared are no longer eligible for the CSM package because they are classified as co-sell opportunities. If you need any further explanation or a specific exclusion, please reach out to @Noa Abel.Table logic:",
+      "usable": true
+    },
+    {
+      "id": "12613384720",
+      "name": "Passing to Finance/Legal -  SO Advice/Questions",
+      "group": "CPQ",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613384720",
+      "text": "The business lounge is most for technical issues. For these types of questions on handling renewal timelines and factoring in the coterminous relationship. Finance/legal would be best to advise on how best to proceed with the commercial aspects. Once there is clarity there, feel free to come to me again, and I will be happy to support the decisions made.",
+      "usable": true
+    },
+    {
+      "id": "12613384722",
+      "name": "Flat Renewals - Unhandled Error",
+      "group": "CPQ",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613384722",
+      "text": "Error Message:\n\nResponse:\n\nUnfortunately, I believe there are issues with selecting an Opp Type that contains 'Renewals' in the SO creation screen. As recommended by the CPQ team, you should be able to proceed if you select any other 'Type' in the SO creation screen within CPQ Management (note: it can be changed after).",
+      "usable": true
+    },
+    {
+      "id": "12613384834",
+      "name": "CSM - \"Flat\" Renewal error",
+      "group": "CPQ",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613384834",
+      "text": "Thanks for reaching out! This is because the Opportunity type is set as \"Flat renewal\".\n\nI have changed the type; it can be either Expansion/Downgrade on renewal, etc., and this should work.\nIn the future, if you come across this issue, create a new SO with a different type than \" flat\" renewal.\n\nPlease try now and let me know if you encounter any technical issues.",
+      "usable": true
+    },
+    {
+      "id": "12613374745",
+      "name": "Approver Delegation",
+      "group": "CPQ",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613374745",
+      "text": "Heading: \n\n:airplane:Out of Office? Set Your CPQ Delegate!\n\nConsulting Team—let's keep those approvals moving!\nTo avoid bottlenecks while you're on vacation or maternity leave, please ensure your Delegated Approver is set up.\n\nYou don't need to submit a ticket to the business support!\n\nFollow these steps\n\n* Click your avatar in the CPQ header.\n* Open the CPQ Delegation screen.\n* Select your delegate from the list.\n* Set your dates (Start & End).\n* Confirm — and you’re officially OOO!\n\n:movie_camera: Watch the \"How-To\" video here: [Link]",
+      "usable": true
+    },
+    {
+      "id": "12613361619",
+      "name": "Change Account Flow via Opp",
+      "group": "CPQ",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613361619",
+      "text": "thanks for reaching out! You should be able to make this change on your end via the account change flow on the Opportunity.\n\nHere is the playbook, also linked in that component.\n\nPlease let me know if you run into any issues.",
+      "usable": true
+    },
+    {
+      "id": "9844973498",
+      "name": "Recognition Threshold",
+      "group": "Post Sales",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844973498",
+      "text": "Per the Recognition Threshold, only Pro/Ent plans are recognized, and only Yearly/Multi-yearly.\n\n(Optional) Please keep the Opp and cc claim as is. This accumulates ARR while you own the Account, and if there is an upgrade (to Pro/Ent or to Yearly/Multi-Yearly) within your Account Ownership, you will be recognized for all the accumulated ARR + claimed ARR in the Opp for the upgrade.\n\nYou can see more on the new ARR Recognition Threshold policy here:\n• https://monday.monday.com/boards/3047308442/pulses/7085940202\n• https://monday.monday.com/boards/3047308442/pulses/7156763658\n\nLet me know if you have any other questions. \n\n-- OR --\n\n\"This Account is not meeting the criteria as they are still on only [Standard Tier OR Monthly Plan]. The ARR here won't be lost as long as you claimed it - it will be banked and added to subsequent opportunities until one matches the recognition criteria, at which point you will be recognised for the full amount claimed to date.\" (Response here)",
+      "usable": true
+    },
+    {
+      "id": "9844974847",
+      "name": "ARR/Claiming not being Recognized upon Transition/Upgrade",
+      "group": "Post Sales",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844974847",
+      "text": "Please keep the CC claims as is - this accumulates the ARR from the standard plan, and once the service product transitions to enterprise, you will be recognized for that accumulated ARR plus added ARR from the transition to Enterprise.\n\nHi! We don't recognize Monthly plans. Please close-won and keep the CC claims as is . When the account transitions to yearly, you will be recognized for the 12K plus any added ARR from the upgrade.",
+      "usable": true
+    },
+    {
+      "id": "9844973712",
+      "name": "CC Claims Policy",
+      "group": "Post Sales",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844973712",
+      "text": "Per the ARR Recognition policy, CC claims should be handled on time and within the 6-month window.\n\nMoving forward, please claim the CC payments on time.",
+      "usable": true
+    },
+    {
+      "id": "9844973416",
+      "name": "Opt Out Wire > CC",
+      "group": "Post Sales",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844973416",
+      "text": "Please do the following:\n\n1. Submit the Opt Out in the Opp where you created the original Sales Order\n\n- Guru card here: https://app.getguru.com/card/cX89R5Ri/OptOut-Process \n\n2. Go to BigBrain > Subscription Management, and in the 3 dots on the right, cancel the Account (in order to be able to generate the CC link). Note that the cancellation is a 2-step process: Cancel on Renewal > Cancel Subscription\n\n- When you hit cancel on renewal, you will need to refresh, and then the option to cancel subscription should be available to you.\n\n3. You should then be able to generate a CC payment link\n\nPlease have them as soon as possible to ensure the cancellation does not affect the automations in their account.",
+      "usable": true
+    },
+    {
+      "id": "9844974153",
+      "name": "Correction Opportunity",
+      "group": "Post Sales",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844974153",
+      "text": "**Note: the following canned response only applies when the Opp is already Closed, and the SO is already Signed.\n\nPlease do the following:\n\n1. Within the Post Won wizard, please select 'Change Billing Entity'.\n\n2. Follow the prompts and select the right BE and Shipping entity.\n\n3. Click Submit, and continue to follow the prompts to 'Clone' the Quote Line Items from the original SO.\n\n4. You will then get a generated correction SO with that BE change.\n\n5. From there, you can just get that generated correction SO signed.\n\nFeel free to use this guru as guidance: https://app.getguru.com/card/cE5yGxLi/Correction-Opportunities-Guide-V2",
+      "usable": true
+    },
+    {
+      "id": "9844974973",
+      "name": "Generating CC Link (P.V Change Request On Demand)",
+      "group": "Post Sales",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844974973",
+      "text": "In case Rep is asking to upgrade PV upon CC creation/ renewal:\n\nsubscription will be renewed with the current PV, unless it is eligible for price increase. Eligibility for a price increase can be seen both in the upper section of BB and as an event in the \"Subscription History\" in the Subscription Management tab in BB.\n\nIf the account is not eligible for a price increase, but you or a consultant think it should be, then you need to take it with #ask-monetization",
+      "usable": true
+    },
+    {
+      "id": "9844975065",
+      "name": "Downgrade CC Customer After Payment",
+      "group": "Post Sales",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844975065",
+      "text": "Generate a new payment link for X new seats with today's date\n(it will calculate the price accordingly for an updated contract).\n(negative amount displayed - is OK)\nAfter the customer accepts the link, the negative amount ready to be refunded will be displayed.\nAfter that, Business Support will perform a refund with the \"Accidental upgrade\" refund reason.",
+      "usable": true
+    },
+    {
+      "id": "9844974624",
+      "name": "Fix Sales Order (Post Won Process)",
+      "group": "Post Sales",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844974624",
+      "text": "1. If Opp NOT locked OR If Close Date = Last Month & Current Date = ≤ 10th of This Month\n\n\"Hi , since the Opp is not locked, I went ahead and reopened the Opp. I also reverted the contract in Salesforce and (if applicable) reverted to the previous plan in BigBrain. Please proceed with creating a new SO, and I highly recommend you consult with legal on what is needed to address the old SO. Let me know once signed, and when you Close Won the Opp.\"\n\n2. If Opp Locked OR If Close Date = Last Month & Current Date = ≥ 10th of This Month\n\n\"Hi , this is a locked Opp from . Unfortunately, the ARR is locked, and numbers have been reported, so we cannot reopen the Opp. The right course of action is to create a new Opp and a new SO there.\n• I went ahead and created the new Opp for you (note: Close Date has been set to stay on the current month): \n• I also reverted the contract in Salesforce and (if applicable) reverted to the previous plan in BigBrain.\nPlease proceed with creating a new SO, and I highly recommend you consult with legal on what is needed to address the old SO. Let me know once signed, and when you Close Won the Opp.\"\n\nSee \"Sales Order Post Won Changes Guide\": https://monday.monday.com/docs/9148066384",
+      "usable": true
+    },
+    {
+      "id": "9844973793",
+      "name": "Auto-activation Product Infra Mismatch",
+      "group": "Post Sales",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844973793",
+      "text": "The SO cannot be activated on the existing account as the BB account is a WorkOS account, while the SO is for Multi-product.\n\nThe only option is to have the client create a new Account/trial.\nAll new Accounts are automatically on the Multi-Product infra.\nOnce created, we can switch the BB ID and activate the Sales Order in the new Account.\n\nPlease let me know once done and provide the new BB link. I can then help with the activation.",
+      "usable": true
+    },
+    {
+      "id": "12284422486",
+      "name": "Can't close won Legal Doc",
+      "group": "Post Sales",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12284422486",
+      "text": "Please watch this video on the flow you should follow when creating a legal document. The reason you can't close won is due to the legal document not yet being marked as signed.\n\n You can also override this with your manager's help.\n\nManager: Hi, please try using the override mechanism.\nthe Manager Section:\n\nPlease let me know if you encounter any issues/ still not able to close won.",
+      "usable": true
+    },
+    {
+      "id": "12310910368",
+      "name": "Submit OPT OUT request",
+      "group": "Post Sales",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12310910368",
+      "text": "The \"Submit Opt-Out Request\" button can be found on the Opportunity page via the dropdown menu on the top right side.\nPlease follow these steps to ensure a smooth approval process:\n1. Select the Correct Opt-Out Type\nYou will need to select the appropriate opt-out lane. Please double-check this, as Finance will strictly validate it:\n\n* Contractual\n* Non-Contractual\n2. Escalation Process (For Non-Contractual Requests Only)\nf you select Non-Contractual, the approval process requires an extra step once it passes your 3rd-line manager. When the request reaches the \"Pending CCO Approval\" stage, you must open a Slack group with Mary Malinsky and Adi Dar.\n\n:bulb: Important Update: Please create this Slack group directly through the \"Slack Channel\" tab within the Salesforce Opportunity. When creating the channel, please provide the following details:\n\n* Reason / Root Cause: Why is this request being made (e.g., product gap, budget change, implementation issue)?\n* Requested Outcome: What is the expected outcome (full churn or a specific exception)?\n* Retention Efforts: What actions have been taken to retain the customer or remediate the situation?\n* Justification: Why should this request be approved as an exception to standard policy?\n* Supporting Context: Summary of key points from your conversations (link documentation if needed).\n\n:warning: Critical Commercial Details to Include:\nHow much loss (ARR/revenue) can we expect?\nWhat are their current commercials right now?\nHow long have they been a customer with us?\nWhen is their upcoming renewal?\nHow many days past their previous renewal are they currently? Next Steps & Business Lounge\nPlease note that you should only open a Business Lounge ticket for further support after the request has been fully approved by Mary Malinsky and Adi Dar in the Slack group, and subsequently approved within the Salesforce opt-out request on the opportunity.\nLet me know if you run into any issues finding the button or if you need further clarification!",
+      "usable": true
+    },
+    {
+      "id": "12613384721",
+      "name": "Changing Active Contract Start date",
+      "group": "Post Sales",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613384721",
+      "text": "Hi, thanks for reaching out!\nUnfortunately, we can't just change the start date field of an active contract.\nIf you want the SO to reflect a new date, you need to create a new SO.",
+      "usable": true
+    },
+    {
+      "id": "12613384718",
+      "name": "Account Saying No Active Contract Despite Being Active",
+      "group": "Post Sales",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613384718",
+      "text": "The contract wasn’t appearing as active because the commercial status was set to Deactivated.\n\nI’ve now reactivated it, so it should display correctly. Let me know if you run into any further issues.",
+      "usable": true
+    },
+    {
+      "id": "12613384835",
+      "name": "CC -> Wire Prorated SO activation issue",
+      "group": "Post Sales",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613384835",
+      "text": "I hope all is well. \n\nThis SO can't be activated. Please create a new SO with the Type \" New Contract\".\n\nWhen moving from CC to wire, it should be a New Contract type.",
+      "usable": true
+    },
+    {
+      "id": "12613361620",
+      "name": "OPT OUT: Contractual vs NonContractual",
+      "group": "Post Sales",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613361620",
+      "text": "The \"Submit Opt-Out Request\" button can be found on the Opportunity page via the dropdown menu on the top right side.\nPlease follow these steps to ensure a smooth approval process:\n1. Select the Correct Opt-Out Type\nYou will need to select the appropriate opt-out lane. Please double-check this, as Finance will strictly validate it:\n\n* Contractual\n* Non-Contractual\n2. Escalation Process (For Non-Contractual Requests Only)\nIf you select Non-Contractual, the approval process requires an extra step once it passes your 3rd-line manager. When the request reaches the \"Pending CCO Approval\" stage, you must open a Slack group with Mary Malinsky and Adi Dar.\n\n:bulb: Important Update: Please create this Slack group directly through the \"Slack Channel\" tab within the Salesforce Opportunity. When creating the channel, please provide the following details:\n\n* Reason / Root Cause: Why is this request being made (e.g., product gap, budget change, implementation issue)?\n* Requested Outcome: What is the expected outcome (full churn or a specific exception)?\n* Retention Efforts: What actions have been taken to retain the customer or remediate the situation?\n* Justification: Why should this request be approved as an exception to standard policy?\n* Supporting Context: Summary of key points from your conversations (link documentation if needed).\n\n:warning: Critical Commercial Details to Include:\nHow much loss (ARR/revenue) can we expect?\nWhat are their current commercials right now?\nHow long have they been a customer with us?\nWhen is their upcoming renewal?\nHow many days past their previous renewal are they currently? Next Steps & Business Lounge\nPlease note that you should only open a Business Lounge ticket for further support after the request has been fully approved by Mary Malinsky and Adi Dar in the Slack group, and subsequently approved within the Salesforce opt-out request on the opportunity.\nLet me know if you run into any issues finding the button or if you need further clarification!",
+      "usable": true
+    },
+    {
+      "id": "9844974404",
+      "name": "Partner Portal MFA Reset Password",
+      "group": "Partners",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844974404",
+      "text": "I have disconnected the partner users' MFA and triggered a reset password email so they can set it up again.\n\nPlease let me know if you have any issues.",
+      "usable": true
+    },
+    {
+      "id": "12543179104",
+      "name": "Secondary Opp not created",
+      "group": "Partners",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12543179104",
+      "text": "Scenario 1 : No S&P request connected to the Opp\n\nHi [rep] thanks for reaching out! There currently isn't an S&P request connected to this Opp [Opp ]Currently, both S&P requests point to this Opp[Opp ]\n\nPlease create a new S&P request for this Opp [Opp ]. Once approved, this will automatically create a secondary Opp.",
+      "usable": true
+    },
+    {
+      "id": "12613384717",
+      "name": "Change Source Type > ARR Recognition",
+      "group": "Partners",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613384717",
+      "text": "You are now recognized. For context, this is because the Source type was changed after the opportunity was Closed Won. It doesn't update dynamically. Additionally, changes to Source Type (specifically changes to Outbound) should be approved by the Sales Desk team.",
+      "usable": true
+    },
+    {
+      "id": "12613384725",
+      "name": "Redirect to Sales Desk Team",
+      "group": "Partners",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613384725",
+      "text": "Response:\n\nPlease submit a ticket to the Sales Desk Team: https://wkf.ms/3YDL5x4\n\nFor reference, see the following announcement here about guidance on when to contact the Sales Desk team and when to contact the Business Support team: https://monday.slack.com/archives/CTC0J0X71/p1753790454391769",
+      "usable": true
+    },
+    {
+      "id": "12613384828",
+      "name": "Partner Opp Not Recognised",
+      "group": "Partners",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613384828",
+      "text": "Unfortunately this opportunity is not eligible to be recognised at this point in time.\n\nFor partner opportunities, the ARR compared against the threshold is based only on the claimed ARR, not the account ARR at present. In this case, there has not been enough ARR claimed on this account by the partner to meet the threshold, so the opportunity cannot be recognised.\n\nDon't worry; the amount here will be added to future opportunities, and when the total meets the threshold, the full amount will be recognised",
+      "usable": true
+    },
+    {
+      "id": "9844973854",
+      "name": "CX Platform Support",
+      "group": "General",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844973854",
+      "text": "The Business Support Team is not providing in-platform support. Please reach out to the CX Team as we have limited in-platform support we can provide.\n\nLet me know if you have any other questions. Thank you!",
+      "usable": true
+    },
+    {
+      "id": "9844973965",
+      "name": "Migration to Multi-Product Infra",
+      "group": "General",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844973965",
+      "text": "Currently, we can't move accounts to the Multi-Product infra on demand. \n\nIf WIRE:\n\nThe only other option is to have the client create a new Account/trial. All new Accounts are automatically on the Multi-Product infra. Once created, we can switch the BB ID and activate the Sales Order in the new Account.",
+      "usable": true
+    },
+    {
+      "id": "9844973433",
+      "name": "General - Sales Reps Expectations",
+      "group": "General",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844973433",
+      "text": "* The expectation is that reps should be able to create cc payment links. cc \n\n* The expectation is that if you are the Account Owner, you are handling your claims on time (6 months window - per the ARR Recognition policy). /If you did not own this account at the time of the charges, you're not eligible to claim them.\n\n*  The Recognition Threshold / ARR Recognition policy is based on individual Monday Accounts. It is not based on multiple Monday Accounts together meeting the threshold. We cannot recognize.",
+      "usable": true
+    },
+    {
+      "id": "9844973571",
+      "name": "Change Source Type > ARR Recognition",
+      "group": "General",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844973571",
+      "text": "You are now recognized. For context, this is because the Source type was changed after the opportunity was Closed Won. It doesn't update dynamically. Additionally, changes to Source Type (specifically changes to Outbound) should be approved by the Sales Desk team.",
+      "usable": true
+    },
+    {
+      "id": "9844974774",
+      "name": "Account Saying no active contract despite being active",
+      "group": "General",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844974774",
+      "text": "The contract wasn’t appearing as active because the commercial status was set to Deactivated.\n\nI’ve now reactivated it, so it should display correctly. Let me know if you run into any further issues.",
+      "usable": true
+    },
+    {
+      "id": "9844973895",
+      "name": "Refund/Cancelation > below $500",
+      "group": "General",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844973895",
+      "text": "Note this is for CC accounts ONLY\n\nIf I am not mistaken, I think you have the permissions to cancel the account and refund it on your end:\n- Cancel on renewal, then cancel the subscription.\n- Then the system generates an account balance for the remaining period that you should have permissions to refund :)\n\nThat will result in the system automatically creating a refundable account balance. Please let me know if you run into any technical issues.",
+      "usable": true
+    },
+    {
+      "id": "9844973978",
+      "name": "Ticket Submission Best Practices",
+      "group": "General",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844973978",
+      "text": "* Please note that the Business Lounge is mainly for technical issues, and there is no technical issue here. I highly recommend consulting with your manager if you have any process questions before logging a ticket.\n\n* If you provide any screenshots or screen recordings of technical issues upon ticket submission, that will allow us to assist better.\n\n* We would highly appreciate it if you keep communications regarding issues consolidated in the ticket - using Slack is not the correct process.",
+      "usable": true
+    },
+    {
+      "id": "9844974079",
+      "name": "Passing to fiance/legal -  SO advise/questions",
+      "group": "General",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844974079",
+      "text": "The business lounge is most for technical issues. For these types of questions on handling renewal timelines and factoring in the coterminous relationship. Finance/legal would be best to advise on how best to proceed with the commercial aspects. Once there is clarity there, feel free to come to me again, and I will be happy to support the decisions made.",
+      "usable": true
+    },
+    {
+      "id": "9844974194",
+      "name": "Removing BCO manually",
+      "group": "General",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9844974194",
+      "text": "How to edit BCO/remove it & line actions in CPQ in general. \nPlease review this 2-minute video to get a full understanding (you'll understand it in less than 2 minutes).\nLet me know if you have any questions.",
+      "usable": true
+    },
+    {
+      "id": "12580753915",
+      "name": "TOF re-route",
+      "group": "General",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12580753915",
+      "text": "thanks for reaching out! Please reach out to theTOF Slack channel [tof-support], where any questions about top of funnel, like lead issues, can be answered. There is an agent live in the channel now and can be escalated to the TOF tech owners. We want to consolidate everything in one place for now.",
+      "usable": true
+    },
+    {
+      "id": "9873234411",
+      "name": "How to Clear Cache",
+      "group": "General",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/9873234411",
+      "text": "How to clear cache:\n\n1. Paste this url in a new tab and it will take you to this page: chrome://settings/clearBrowserData\n\n2. Check cached images and files and delete data",
+      "usable": true
+    },
+    {
+      "id": "12624803124",
+      "name": "Gong- Engage",
+      "group": "General",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12624803124",
+      "text": "thanks for reaching out! For questions or issues, please reach out to this Slack channel: #ask-gong-engage.",
+      "usable": true
+    },
+    {
+      "id": "12599089394",
+      "name": "Recent news company change messege",
+      "group": "General",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12599089394",
+      "text": "Hi [Name], given some of the recent news, I wanted to reach out and see if this is relevant to you right now?",
+      "usable": true
+    },
+    {
+      "id": "12613388744",
+      "name": "CRO - Monday Demo Accounts",
+      "group": "General",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613388744",
+      "text": "Response:\n\nPlease review:\n\n* This Slack message for instructions on how to get access to Monday Demo Accounts and the POCs to reach out to (you can also join the dedicated Slack channel #ask-cro-demo-accounts): https://monday.slack.com/archives/C04J60ZA279/p1745399700302009\n\n* The  Enablement Onboarding slides here: https://monday.highspot.com/items/678184158b72d54dea9ca615?lfrm=srp.0#37",
+      "usable": true
+    },
+    {
+      "id": "12613384836",
+      "name": "Issues creating an Opp",
+      "group": "General",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613384836",
+      "text": "Are you creating an expansion Opp via the \"create expansion Opportunity\" button?\n\nPlease try creating a new Opp via the \"New\" Opp button.",
+      "usable": true
+    },
+    {
+      "id": "12613384831",
+      "name": "New Ticket - for new process(Raz and Ben)",
+      "group": "General",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613384831",
+      "text": "As part of our new process, please submit a new ticket using one of the specific subjects listed below. This will ensure it reaches the appropriate representatives who handle these requests.\n\n* Merge / Consolidation / Seat Reallocation\n\n* Downgrade Mid-Contract\n\n* Churn Mid-Contract\n\nThank you for your cooperation!",
+      "usable": true
+    },
+    {
+      "id": "12613384832",
+      "name": "CCO Rebalancing - CSM changes:",
+      "group": "General",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613384832",
+      "text": "* CCO Rebalancing (Chen Jana)- CSM changes:\n\"Please reach out to your manager, as these decisions have already been approved by them. If the managers require any changes, they will contact us to make these changes.\"\n\n* CRO Rebalancing (Regional RevOps)- Account Owners changes:\n\"Please reach out to your Regional Revops to make these changes.\"\nPlease reach out to your Regional Revops.* NAM- Mari Miyamoto\n\n* EMEA- Harry Gray\n\n* APJ- Eric Kim\n\n* LATAM- André Daud",
+      "usable": true
+    },
+    {
+      "id": "12613384833",
+      "name": "Pocus Being Depricated",
+      "group": "General",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613384833",
+      "text": "Thanks for reaching out! Unfortunately, Pocus is being deprecated.\n\nThis is the alternative for Pocus. - https://docs.google.com/document/d/1NwAas4KZp_uuyLPlgTYVPw_mqARQOGpY3Dn8Oqpxhf4/edit?tab=t.0",
+      "usable": true
+    },
+    {
+      "id": "12613374744",
+      "name": "Bill to/ Ship to Change",
+      "group": "General",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613374744",
+      "text": "Thanks for reaching out! The finance team can change the billing details. Once they do so, you can then change the Shipping details on your end. Then create a new SO to have those details reflected correctly.\n\nPassing to Finance.",
+      "usable": true
+    },
+    {
+      "id": "12613361618",
+      "name": "Critical SLA pushback",
+      "group": "General",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613361618",
+      "text": "Thanks for reaching out. I’m happy to share that we’ve responded to this request within 2 hours. While our official SLA for critical tickets is 12 hours, our team is working hard to stay ahead of that timeline and provide updates as quickly as possible. Thank you for working with us!",
+      "usable": true
+    },
+    {
+      "id": "12613384724",
+      "name": "Systems Issues Support - Deflection",
+      "group": "User Management / Tools",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613384724",
+      "text": "Response:\n\nBusiness Support only provisions/manages access to the Systems/Tools.\n\nPlease reach out in the slack channel [Input Relevant Slack Channel]. / The best place to get support for this is in the slack channel [Input Relevant Slack Channel].\n\n--\n\nSlack Channels:\n\n* Salesloft: #salesloft-community\n* Gong: #gongxmondaycom\n* Pocus: #pocus-community\n* ZoomInfo: #zoominfo-users",
+      "usable": true
+    },
+    {
+      "id": "12613374740",
+      "name": "User Management. - Role change",
+      "group": "User Management / Tools",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613374740",
+      "text": "When is the effective date of this change?\nPlease note that once updated in SuccessFactors, it will then be updated in Salesforce",
+      "usable": true
+    },
+    {
+      "id": "12613388733",
+      "name": "System Access Request",
+      "group": "User Management / Tools",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613388733",
+      "text": "Responses:\n\n> Eligible - IT Ticket Required\n\nCan you please submit a new IT ticket with Type: Request, Category: Applications -> [Application]. With these selections, it will go through the IT workflows, and we will approve it through that flow.\n\n> Not Eligible\n\nWe cannot provide you with access to , since this is not a tool in your role's tech stack.\n\nWe passed your request to the Central RevOps team, and it will be reviewed in the next tech stack eligibility cycle.\n\n> LinkedIn Sales Navigator - For IT Access Request Ticket\n\nCan you please ensure you are logged into your personal LinkedIn Account first? This will ensure your LinkedIn x SalesNav profiles are connected. Once confirmed, I will accept your Sales Nav request and this will send you the activation email.",
+      "usable": true
+    },
+    {
+      "id": "12613374743",
+      "name": "Opp type",
+      "group": "Renewals",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613374743",
+      "text": "renewal opps should no longer be created manually as of the new 2026 renewals framework, they are automatically created and you should use the ones already provided on the opp\n\nIf there is one missing you can reach out to us for assistance, but in this case there is already one available",
+      "usable": true
+    },
+    {
+      "id": "12613361617",
+      "name": "Renewal Opp creation Error",
+      "group": "Renewals",
+      "url": "https://monday.monday.com/boards/9844972619/pulses/12613361617",
+      "text": "In this case, the account is moving from CC to wire, which requires a new contract. This should can be done on the Renewal Opp so that you can create a new Contract.\n\nIf it’s an expansion, you’re creating a ProRated SO on top of a 'New Contract,' so that would be done on a new Expansion Opp.",
+      "usable": true
+    }
+  ]
+}
